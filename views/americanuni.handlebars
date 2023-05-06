@@ -1,0 +1,11 @@
+<div class="card bg-dark text-light">
+    <div class="title text-light">
+        <h1 class="text-left">American University</h1>
+    </div>
+    <p class="text-center">{{conference}}</p>
+    <p>Welcome American University fans.</p>
+    <div class="card text-light">
+        {{#each players as |player|}}
+        <h5>{{player.description}} from {{player.college}}</h5>
+    </div>
+</div>
