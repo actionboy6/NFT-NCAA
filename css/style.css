@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20vh;
+    width: 100;
+}
+
+header h1 {
+    background-color:black;
+    padding: .7em;
+    color: whitesmoke
+}
+
+nav h2 {
+    justify-content: space-around;
+    color:black
+}
+
+nav h4 {
+    justify-content: space-around;
+    color: goldenrod;
+}
