@@ -1,0 +1,44 @@
+h4 {
+    padding: auto
+    
+    ;
+    color: gold;
+}
+
+h5{
+    padding: auto;
+    color: goldenrod;
+}
+
+h6 {
+    padding: auto;
+    color: gold;
+}
+
+/*create a card for each div tag*/
+.card {
+    background-color: silver;
+    padding: .7em;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1em;
+    width: 20%;
+    float: left;
+}
+
+.card-text {
+    background-color: red;
+    padding: .5em;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1em;
+    width: 20%;
+    float: left;
+}
+
+p {
+    padding: .7em;
+    color: black;
+}
