@@ -7,6 +7,30 @@ header {
     height: 20vh;
 }
 
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+
 body {
     background-image: url(pictures\vecteezy_red-and-white-business-background-blank-modern-background_11114145.jpg);
     background-size: cover;
